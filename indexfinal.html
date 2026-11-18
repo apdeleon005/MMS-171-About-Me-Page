@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head> 
+    <meta charset ="UTF-8"/>
+    <title>Alexia De Leon</title>
+    <!-- this code is copied from the google website for "Pinyon Script" -->  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+
+    <!--linking the custom stylesheet and passionprojects  to the webpage --> 
+    <link rel ="stylesheet" href ="styles.css">
+    <!--<link rel ="passionproject" href = "projects.xml"> --> 
+    
+</head>
+
+<body>
+    <header id = "bg01">
+        <h1>Alexia De Leon</h1>  
+    </header>
+
+    <div class = "box"> 
+        <div class = "item">
+            <img src = 'me.png' alt = "profile picture">
+        </div>    
+
+        <div class= "item">
+            <h3> About Me </h3>
+            <p> Hey there! I'm Alexia, a fourth-year full-time Multimedia Studies student under the Univesity of the Philippines Open University. 
+                I particularly love exploring different types of media, creating art, and making it all make sense in the digital world! I dabble in design,
+                video editing, and audio related aspects of media.  
+                 </p>
+            <h3 id= "loves"> My Loves </h3>
+            <p> Outside of studies, here are some points of interest that I like to dabble in!</p>
+                <ul>
+                    <li>Sports</li>
+                    <li>Gaming </li>
+                    <li>Crochet</li>   
+                    <li>Cooking</li> 
+                </ul>
+        </div>
+
+        
+        </div>
+        <div class = "boxtagline">
+            <div class = "itemtagline"> 
+                <h2>forever exploring, forever curious.</h2>
+            </div>
+        </div>
+
+        
+    <article id = "passionproj"> 
+        <h2> Passion Projects </h2>
+    </article>
+    <div class ="box">
+        <div class = "item"> 
+            <h4> Photography Side Projects </h4>
+            <p class> Capturing whatever piques my interest. From travel, random objects, to other scenery. As always, this section will still grow as time passes by. </p>
+            <div>
+                         <img src = 'photogproj.jpg' alt = "photographycover">
+            </div>
+            <a href = "https://drive.google.com/file/d/1NZGeqbxughIvD67U1_kCd7p3tJqv5u57/view?usp=sharing"> Click Here to view photos!</a>
+            </div>
+        <div class = "item"> 
+            <h4> Crochet Side Projects </h4>
+            <p> Making cute stuff is one of my joys, so this hobby truly fulfills that craving. From plushies, clothes, and other accessories,
+                        I love to explore and create!
+                    </p>
+            <div>
+                         <img src = 'crochetproj.jpg' alt = "crochetcover" id = "crochetpic">
+                    </div>
+            <a href = "https://drive.google.com/drive/folders/1zyAas7_1GJVzSqCmifxNZEnPIDZH0ev-?usp=sharing"> Click Here to see more of my projects!</a>
+        </div>
+
+    <div class= "item">
+            <h4 id ="paraproj1title"></h4>
+            <p id = "demo"></p> 
+
+        </div>
+    
+        <script>
+            fetch("projects.xml").then(responnse => {
+                return response.text();
+            }).then(xmlString => {
+                const xmlDocument = new DOMParser().parseFromString(xmlString, "text/xml");
+                const tutorials = xmlDocument.querySelectorAll("project_item_01");
+
+                for (const project_item_01 of tutorials){
+                    const title = tutorials.querySelector("title").textContent;
+                    const description = tutorial.querySelector("description").textContent;
+
+                    console.log(title, description);
+                }
+            });
+        
+        </script>
+    </div>
+</main>
+
+<footer id = "boxend">
+    <h3 class = "itemfoot">Contact</h3>
+    <p class = "itemfoot"> 09564354680 <br> apdeleon5@gmail.com </p>
+</body>
