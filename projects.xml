@@ -1,0 +1,21 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<my_projects>
+    <project_item>
+        <title> Quick Snaps from My Lens </title> 
+        <description> As someone who enjoys photography, I've dabbled in different kinds of styles. Not bound to one style, I've been more exploring and capturing things that are interesting for me. </description>
+        <date> 2023-2026 </date>
+    </project_item>
+    <project_item>
+        <title> Yarnful of Stitches  </title> 
+        <description> Two years ago, I've taken up crocheting. The first projects, as usual, were extremely wonky. From the amigurmi filled with misplaced stitches and holes to clothes that didn't quite fit, I've learned to love my creations and the process that goes with it. Today, I enjoy creating original designs, dabbling in a few patterns of my favorite things. 
+        </description> 
+        <date> 2024-2026 </date>
+    </project_item>
+
+    <project_item>
+        <title> Designs Built From Bits and Bytes </title> 
+        <description> Starting from one idea and building up on it to express in different styles has always been a fun endeavor for me. I get inspired by everything I see and the designs of other great artists. My designs have been primarily been for academic related topics but integrating a dynamic style into those was part of the fun. Other than that, I've been contributing to my organization for publications involving design.    
+        </description>
+        <date> 2024-2026 </date>
+    </project_item>
+</my_projects> 

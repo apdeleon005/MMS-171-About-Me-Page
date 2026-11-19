@@ -1,0 +1,344 @@
+
+body{
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    
+}
+
+@media (max-width: 600px) {
+    img {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        padding-top: 100px;
+    } 
+
+    .box img {
+        padding-top: 10vw;
+        margin-bottom: 0px;
+    }
+
+    .box {
+        display:flex;
+        flex-direction: column;
+        padding: 3vw;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .box.item {
+        margin: 5px;
+        margin-top: 0px;
+        padding-top: 0vw;
+        display: column;
+        display:block;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0vw;
+    }
+
+    p, li, a {
+        font-size: 25px; 
+        color: #6d002a; 
+        word-wrap: break-word;
+        text-align: left;
+    }
+    #boxend {
+    background-image: url('fourbg.png'); 
+    background-color: #6d002a;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    p.itemfoot {
+    color: white;
+    text-align: right;
+    display:block;
+    }
+
+    h3.itemfoot{
+    color: white;
+    margin-top: 50px;
+    display:block;
+
+    }
+}
+
+
+/* header coding */
+h1 {
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+    color: #ffc1d9;
+}
+h2 {
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+    font-weight: 400; 
+    color: white;
+}
+
+h5 {
+    font-family: "Cinzel", Arial, Helvetica, sans-serif;
+    font-size: 1.5vmax;
+    text-align: justify;
+    color: white; 
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#bg01 {
+    background-color: #6d002a;
+    background-position: center top;
+    background-size: cover;
+}
+
+body {
+    background-image: url('finalbg.png');
+    background-repeat:repeat;
+}
+
+#tagline {
+    background-color: #6d002a;
+    flex-direction: column;
+    border-top: #f76399;
+    border-bottom: #f76399;
+    border-width: 10px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    font-size: 1.5vmax;
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+}
+header {
+    
+    text-align: center;
+    font-size:3vmax;
+    padding-bottom: 1.5px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* about me + my loves section */ 
+h3 {
+    font-family: "Cinzel", Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    text-align: justify;
+    color: white; 
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    padding-top: 0px;
+}
+
+
+p, li, a {
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    font-size: 1vw; 
+    color: white; 
+    word-wrap: break-word;
+    text-align: left;
+    padding: 10px;
+}
+
+div .item {
+    margin: 50px;
+    padding: 20px;
+    border: 20px;
+    border-color: #6d002a;
+    background-color: #6d002a;
+    border-radius: 2vw;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px gray;
+}
+
+
+div .itemtagline {
+    text-align: center;
+    font-size: 1vmax;
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+    margin: 50px;
+    padding: 20px;
+    border: 20px;
+    border-color: #6d002a;
+    background-color: #6d002a;
+    border-radius: 2vw;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px gray;
+    margin-left:3vw;
+    margin-right: 3vw;
+}
+
+.box {
+   display: flex;
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+   text-align: center;
+   align-items: stretch;
+   margin-left:3vw;
+   margin-right: 3vw;
+}
+
+
+
+h4 {
+    font-family: "Cinzel", Arial, Helvetica, sans-serif;
+    font-size: 1vmax;
+    text-align: center;
+    color: white; 
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+
+}
+
+
+#passionproj { 
+    background-color: #6d002a;
+    background-size: cover;
+    text-align: center;
+    font-size: 2vmax;
+}
+
+p .item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#profilepic {
+    width: 20vw;
+    height: 20vw;
+    margin: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left:10px;
+    padding-right: 10px;
+    background-image: url('finalbg.png');
+}
+
+/*
+img {
+    width: 20vw;
+    height: 20vw;
+    margin: 20px; 
+}
+#crochetpic {
+    width: 90%;
+    height: 80%;
+    margin: 20px; 
+}
+
+#photographycover {
+    width: 80%;
+    height: auto;
+    margin: 20px; 
+
+}
+  
+
+div .picbox2 {
+    align-items: center;
+    justify-content: center;
+
+    height: 520px;
+    width: 1080;
+}
+  */
+
+div .picbox2{
+    margin-top: 30px;
+}
+
+
+#photographycover {
+    object-fit: cover;
+    width: 18vmax;
+    height: 26vmax;
+}
+
+#crochetpic {
+    object-fit: cover;
+    width: 16vmax;
+    height: 23vmax;
+}
+
+#crochetpic2 {
+    object-fit: cover;
+    width: 9vmax;
+    height: 16vmax;
+}
+
+#pProj1 {
+    width: 23vmax; 
+}
+
+#pProj2 {
+    width: 23vmax; 
+}
+
+#pProj3 {
+    width: 23vmax; 
+}
+
+
+#boxend { 
+    background-color: #6d002a;
+    border-top: #f76399;
+    border-bottom: #f76399;
+    border-width: 10px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.5vmax;
+    column-count: 2;
+    column-fill:balance;
+    
+}
+
+p.itemfoot {
+    color: white;
+    text-align: right;
+    margin-top: 50px;
+    padding: 70px;
+}
+
+h3.itemfoot{
+    color: white;
+    margin-top: 50px;
+}
+
+
+/*
+footer { 
+    background-color: #f76399;
+    text-align:left;
+    display: flex;
+    flex-direction: row;
+    padding: 2px; 
+}
+
+footer p {
+    text-align: right;
+    padding-left: 10px; 
+}
+*/
+
