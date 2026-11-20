@@ -1,0 +1,341 @@
+
+@media (max-width:600px){
+    .box {
+        display:flex;
+        flex-direction: column;
+        padding: 3vw;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    background-image: url('finalbg.png');
+    background-repeat:repeat;
+}
+
+/* header styling */
+h1 {
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+    color: #ffc1d9;
+}
+#bg01 {
+    background-color: #6d002a;
+    background-position: center top;
+    background-size: cover;
+}
+
+header {
+    
+    text-align: center;
+    font-size:3vmax;
+    padding-bottom: 1.5px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Text Styling for Tagline */ 
+h5 {
+    font-family: "Cinzel", Arial, Helvetica, sans-serif;
+    font-size: 1.5vmax;
+    text-align: justify;
+    color: white; 
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+
+#tagline {
+    background-color: #6d002a;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    font-size: 1.5vmax;
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+}
+
+div .itemtagline {
+    text-align: center;
+    font-size: 1vmax;
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+    margin: 50px;
+    padding: 20px;
+    background-color: #6d002a;
+    border-radius: 2vw;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px gray;
+    margin-left:3vw;
+    margin-right: 3vw;
+}
+
+/* about me + my loves section + changes that are also applied in other elements */ 
+#profilepic {
+    width: 20vw;
+    height: 20vw;
+    margin: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left:10px;
+    padding-right: 10px;
+    background-color:#ffc1d9;
+}
+h3 {
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+    font-weight: 400; 
+    color: white;
+    font-size: 2vmax;
+}
+ul {
+    text-align: left;
+    padding-top: 0px;
+}
+p, li, a {
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    font-size: 1vw; 
+    color: white; 
+    word-wrap: break-word;
+    text-align: left;
+    padding: 10px;
+}
+
+div .item {
+    margin: 50px;
+    padding: 20px;
+    background-color: #6d002a;
+    border-radius: 2vw;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px gray;
+}
+.box {
+   display: flex;
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+   text-align: center;
+   align-items: stretch;
+   margin-left:3vw;
+   margin-right: 3vw;
+}
+h4 {
+    font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+    font-weight: 400; 
+    color: white;
+    font-size: 3vmax;
+
+}
+
+/* Passion Project Section Styling */ 
+h2 {
+    font-family: "Cinzel", Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    text-align: center;
+    color: white; 
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+#passionproj { 
+    background-color: #6d002a;
+    background-size: cover;
+    text-align: center;
+    font-size: 2vmax;
+}
+
+p .item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+div .picbox2{
+    margin-top: 30px;
+}
+
+#photographycover {
+    object-fit: cover;
+    width: 18vmax;
+    height: 26vmax;
+    padding: 10px;
+}
+
+#crochetpic {
+    object-fit: cover;
+    width: 16vmax;
+    height: 23vmax;
+    padding: 10px;
+}
+
+#graphdesign {
+    object-fit: cover;
+    width: 16vmax;
+    height: 23vmax;
+    padding: 10px;
+}
+
+#pProj1 {
+    width: 23vmax; 
+}
+
+#pProj2 {
+    width: 23vmax; 
+}
+
+#pProj3 {
+    width: 23vmax; 
+}
+/* Footer Styling */ 
+
+#boxend { 
+    display: flex;
+    background-color: #6d002a;
+    font-size: 1.5vmax;
+    column-count: 2;
+    column-fill:balance;
+    justify-content: stretch;
+    align-items:baseline;
+}
+
+p.itemfoot {
+    color: white;
+    text-align: right;
+    flex-grow: 4;
+}
+
+.itemfoot h3{
+    color: white;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling for smaller screens */ 
+
+@media (max-width: 600px) {
+    /*profile and about me changes */ 
+
+    h1 {
+       font-family: "Pinyon Script", Arial, Helvetica, sans-serif;
+        color: #ffc1d9;
+        font-size: 15vw;
+    }
+
+    #profilepic{
+        width: 200px;
+        height: 200px;
+        padding: 0px;
+        background-color:#6d002a;
+
+    }
+
+    p, li, a {
+        font-size: 4vw;
+        text-align: justify;
+    }
+    div .item {
+        padding: 20px;
+        box-shadow: 2px 2px 10px gray;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    .box{
+        padding-top: 10px;
+        align-items: center;   
+    }
+
+    .boxtagline {
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        text-align: center;
+        align-items: stretch;
+        margin-left:3vw;
+        margin-right: 3vw;
+    }
+
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .itemtagline h2{
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 45px;
+        word-wrap: break-word;      
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 40px;
+        word-wrap: break-word;     
+    }
+
+    #boxend h5 {
+        font-size: 30px;
+    }
+
+    .item h5 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .item p {
+        padding: 0px;
+    }
+    
+    
+    /* Passion Projects */
+    #pProj1 {
+        display:flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
+    #photographycover {
+        object-fit: cover;
+        width: 222px;
+        height: 400px;
+        padding: 10px;
+    }
+
+    #pProj2 {
+        display:flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    #crochetpic {
+        object-fit: cover;
+        width: 222px;
+        height: 400px;
+        padding: 10px;
+    }
+    #pProj3 {
+        display:flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    #graphdesign {
+        object-fit: cover;
+        width: 222px;
+        height: 400px;
+        padding: 10px;
+    }
+
+}
+
