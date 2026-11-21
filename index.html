@@ -91,8 +91,8 @@
         <script>
 
             // Fetching Code is made by dcode.(2023). The Easiest Way to Parse XML with JavaScript. YouTube.https://www.youtube.com/watch?v=lUCQgqc4K2A
-
             // Code in the for loop, particularly the counters and rewriting titles, description and date are by Alexia De Leon
+            // Other changes were made to fit the personal code of Alexia De Leon
 
             let counter = 0;
             let counterDesc = 100;
@@ -102,9 +102,9 @@
                 return response.text();
             }).then(xmlString => {
                 const xmlDocument = new DOMParser().parseFromString(xmlString, "text/xml");
-                const tutorials = xmlDocument.querySelectorAll("project_item");
+                const items = xmlDocument.querySelectorAll("project_item");
 
-                for (const project_item of tutorials){
+                for (const project_item of items){
                     counter = counter + 1 
                     counterDesc = counterDesc + 1
                     counterDate = counterDate + 1
