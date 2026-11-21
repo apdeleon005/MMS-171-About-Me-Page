@@ -100,7 +100,7 @@ ul {
 }
 p, li, a {
     font-family: 'Times New Roman', Georgia, Times, serif;
-    font-size: 1.1vmax; 
+    font-size: 1vmax; 
     color: white; 
     word-wrap: break-word;
     text-align: left;
